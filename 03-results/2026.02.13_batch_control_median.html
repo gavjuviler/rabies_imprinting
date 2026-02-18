@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@6"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@6.1.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@7"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}, "axisX": {"domain": false, "ticks": false}}, "data": {"name": "data-dee72bee5b27d5086c3e3e90945c05b2"}, "facet": {"column": {"field": "serum group", "title": "Serum Group", "type": "nominal"}}, "spec": {"layer": [{"mark": {"type": "line", "point": true}, "encoding": {"color": {"field": "batch", "title": "Batch", "type": "nominal"}, "detail": {"field": "serum", "type": "nominal"}, "opacity": {"condition": {"param": "param_ed6809a5f5ea8bf7", "value": 1}, "value": 0.4}, "tooltip": [{"field": "serum", "type": "quantitative"}, {"field": "serum group", "type": "nominal"}, {"field": "virus", "type": "nominal"}, {"field": "value", "format": ".3f", "title": "NT50 (Neutralization Titer)", "type": "quantitative"}], "x": {"field": "virus", "sort": ["d28", "d56", "d365"], "title": null, "type": "nominal"}, "y": {"field": "value", "scale": {"type": "log"}, "title": "NT50 (Neutralization Titer)", "type": "quantitative"}}, "name": "view_2da2f998c7c58f61_0"}, {"mark": {"type": "line", "color": "black", "strokeWidth": 4}, "encoding": {"x": {"field": "virus", "sort": ["d28", "d56", "d365"], "type": "nominal"}, "y": {"field": "median_value", "scale": {"type": "log"}, "type": "quantitative"}}, "transform": [{"aggregate": [{"op": "median", "field": "value", "as": "median_value"}], "groupby": ["virus", "serum group"]}]}, {"mark": {"type": "point", "color": "black", "size": 120}, "encoding": {"x": {"field": "virus", "sort": ["d28", "d56", "d365"], "type": "nominal"}, "y": {"field": "median_value", "scale": {"type": "log"}, "type": "quantitative"}}, "transform": [{"aggregate": [{"op": "median", "field": "value", "as": "median_value"}], "groupby": ["virus", "serum group"]}]}], "height": 350, "width": 250}, "params": [{"name": "param_ed6809a5f5ea8bf7", "select": {"type": "point", "fields": ["serum"], "nearest": true, "on": "mouseover"}, "views": ["view_2da2f998c7c58f61_0"]}], "title": "Batch Control NT50 Slope Plot", "$schema": "https://vega.github.io/schema/vega-lite/v6.1.0.json", "datasets": {"data-dee72bee5b27d5086c3e3e90945c05b2": [{"serum": 2.0, "virus": "d28", "ID": 0.5, "dilution": 81571.63910004216, "value": 81571.63910004216, "serum group": "C-1 (Batch Control)", "batch": "26.01.08 "}, {"serum": 2.0, "virus": "d56", "ID": 0.5, "dilution": 16879.414959294703, "value": 16879.414959294703, "serum group": "C-1 (Batch Control)", "batch": "26.01.08 "}, {"serum": 2.0, "virus": "d365", "ID": 0.5, "dilution": 5760.494336396771, "value": 5760.494336396771, "serum group": "C-1 (Batch Control)", "batch": "26.01.08 "}, {"serum": 2.0, "virus": "d28", "ID": 0.5, "dilution": 63218.73607976818, "value": 63218.73607976818, "serum group": "C-1 (Batch Control)", "batch": "26.01.15 "}, {"serum": 2.0, "virus": "d56", "ID": 0.5, "dilution": 9299.800197612298, "value": 9299.800197612298, "serum group": "C-1 (Batch Control)", "batch": "26.01.15 "}, {"serum": 2.0, "virus": "d365", "ID": 0.5, "dilution": 9198.912350479664, "value": 9198.912350479664, "serum group": "C-1 (Batch Control)", "batch": "26.01.15 "}, {"serum": 2.0, "virus": "d28", "ID": 0.5, "dilution": 5289.294563543085, "value": 5289.294563543085, "serum group": "C-1 (Batch Control)", "batch": "26.01.16"}, {"serum": 2.0, "virus": "d56", "ID": 0.5, "dilution": 1804.2433040137448, "value": 1804.2433040137448, "serum group": "C-1 (Batch Control)", "batch": "26.01.16"}, {"serum": 2.0, "virus": "d365", "ID": 0.5, "dilution": 427.8100418339493, "value": 427.8100418339493, "serum group": "C-1 (Batch Control)", "batch": "26.01.16"}, {"serum": 2.0, "virus": "d28", "ID": 0.5, "dilution": 7576.479403926263, "value": 7576.479403926263, "serum group": "C-1 (Batch Control)", "batch": "26.01.23"}, {"serum": 2.0, "virus": "d56", "ID": 0.5, "dilution": 1427.5310485558814, "value": 1427.5310485558814, "serum group": "C-1 (Batch Control)", "batch": "26.01.23"}, {"serum": 2.0, "virus": "d365", "ID": 0.5, "dilution": 332.4274173632113, "value": 332.4274173632113, "serum group": "C-1 (Batch Control)", "batch": "26.01.23"}, {"serum": 2.0, "virus": "d28", "ID": 0.5, "dilution": 24491.999612498155, "value": 24491.999612498155, "serum group": "C-1 (Batch Control)", "batch": "26.01.29"}, {"serum": 2.0, "virus": "d56", "ID": 0.5, "dilution": 6231.628213488522, "value": 6231.628213488522, "serum group": "C-1 (Batch Control)", "batch": "26.01.29"}, {"serum": 2.0, "virus": "d365", "ID": 0.5, "dilution": 2751.14273303704, "value": 2751.14273303704, "serum group": "C-1 (Batch Control)", "batch": "26.01.29"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
