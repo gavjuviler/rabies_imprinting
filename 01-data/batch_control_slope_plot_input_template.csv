@@ -1,91 +1,16 @@
 serum,virus,ID,dilution,value,serum group,batch
-02,d28,0.5,,,C-1 (Batch Control),26.01.08 
-02,d56,0.5,,,C-1 (Batch Control),26.01.08 
-02,d365,0.5,,,C-1 (Batch Control),26.01.08 
-02,d28,0.5,,,C-1 (Batch Control),26.01.15 
-02,d56,0.5,,,C-1 (Batch Control),26.01.15 
-02,d365,0.5,,,C-1 (Batch Control),26.01.15 
-02,d28,0.5,,,C-1 (Batch Control),26.01.16
-02,d56,0.5,,,C-1 (Batch Control),26.01.16
-02,d365,0.5,,,C-1 (Batch Control),26.01.16
-02,d28,0.5,,,C-1 (Batch Control),26.01.23
-02,d56,0.5,,,C-1 (Batch Control),26.01.23
-02,d365,0.5,,,C-1 (Batch Control),26.01.23
-02,d28,0.5,,,C-1 (Batch Control),26.01.29
-02,d56,0.5,,,C-1 (Batch Control),26.01.29
-02,d365,0.5,,,C-1 (Batch Control),26.01.29
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
+2,d28,0.5,,,Participant 02 (Batch Control),26.01.08 
+2,d56,0.5,,,Participant 02 (Batch Control),26.01.08 
+2,d365,0.5,,,Participant 02 (Batch Control),26.01.08 
+2,d28,0.5,,,Participant 02 (Batch Control),26.01.15 
+2,d56,0.5,,,Participant 02 (Batch Control),26.01.15 
+2,d365,0.5,,,Participant 02 (Batch Control),26.01.15 
+2,d28,0.5,,,Participant 02 (Batch Control),26.01.16
+2,d56,0.5,,,Participant 02 (Batch Control),26.01.16
+2,d365,0.5,,,Participant 02 (Batch Control),26.01.16
+2,d28,0.5,,,Participant 02 (Batch Control),26.01.23
+2,d56,0.5,,,Participant 02 (Batch Control),26.01.23
+2,d365,0.5,,,Participant 02 (Batch Control),26.01.23
+2,d28,0.5,,,Participant 02 (Batch Control),26.01.29
+2,d56,0.5,,,Participant 02 (Batch Control),26.01.29
+2,d365,0.5,,,Participant 02 (Batch Control),26.01.29
