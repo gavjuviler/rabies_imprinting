@@ -1,0 +1,16 @@
+participant,timepoint,ID,NT50,serum group,batch
+2,d28,0.5,81571.6391,Participant 02 (Batch Control),26.01.08 
+2,d56,0.5,16879.41496,Participant 02 (Batch Control),26.01.08 
+2,d365,0.5,5760.494336,Participant 02 (Batch Control),26.01.08 
+2,d28,0.5,63218.73608,Participant 02 (Batch Control),26.01.15 
+2,d56,0.5,9299.800198,Participant 02 (Batch Control),26.01.15 
+2,d365,0.5,9198.91235,Participant 02 (Batch Control),26.01.15 
+2,d28,0.5,5289.294564,Participant 02 (Batch Control),26.01.16
+2,d56,0.5,1804.243304,Participant 02 (Batch Control),26.01.16
+2,d365,0.5,427.8100418,Participant 02 (Batch Control),26.01.16
+2,d28,0.5,7576.479404,Participant 02 (Batch Control),26.01.23
+2,d56,0.5,1427.531049,Participant 02 (Batch Control),26.01.23
+2,d365,0.5,332.4274174,Participant 02 (Batch Control),26.01.23
+2,d28,0.5,24491.99961,Participant 02 (Batch Control),26.01.29
+2,d56,0.5,6231.628213,Participant 02 (Batch Control),26.01.29
+2,d365,0.5,2751.142733,Participant 02 (Batch Control),26.01.29
